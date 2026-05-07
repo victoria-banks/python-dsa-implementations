@@ -1,8 +1,8 @@
-# python-dsa-implementations
-Python implementations of classic data structures and algorithms including linked lists, stacks, queues, BSTs, hash tables, sorting, searching, BFS, and DFS.
 # Python Data Structures & Algorithms Project
 
-This project demonstrates classic data structures and algorithms implemented in Python.
+This project demonstrates classic data structures and algorithms implemented in Python. The program includes linked lists, stacks, queues, binary search trees, hash tables, graph traversal algorithms, sorting algorithms, and searching algorithms.
+
+---
 
 ## Features
 
@@ -15,21 +15,32 @@ This project demonstrates classic data structures and algorithms implemented in 
 - Merge Sort
 - Quick Sort
 - Binary Search
-- Graph Traversal (BFS & DFS)
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
 
-## Files
+---
 
-| File | Description |
-|------|-------------|
-| lists.py | Sorting and searching algorithms |
-| ll.py | Linked list implementation |
-| sq.py | Stack and queue implementation |
-| pq.py | Priority queue implementation |
-| bstht.py | Binary search tree and hash tables |
-| gph.py | Graph traversal algorithms |
-| main.py | Runs all demonstrations |
+## Project Structure
 
-## How to Run
-
-```bash
-python main.py
+``` id="l8p3v1"
+python-data-structures-project/
+│
+├── README.md
+├── requirements.txt
+├── main.py
+│
+├── structures/
+│   ├── ll.py
+│   ├── sq.py
+│   ├── pq.py
+│   ├── bstht.py
+│   └── gph.py
+│
+├── algorithms/
+│   └── lists.py
+│
+├── data/
+│   ├── employees.txt
+│   ├── listnumbers.txt
+│   ├── llnumbers.txt
+│   └── bsthtkeys.txt
